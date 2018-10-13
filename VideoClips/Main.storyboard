@@ -138,7 +138,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8P-L5-VKG">
-                                <rect key="frame" x="8" y="357.66666666666669" width="414" height="46.666666666666686"/>
+                                <rect key="frame" x="8" y="357.66666666666669" width="398" height="46.666666666666686"/>
                                 <string key="text">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -163,7 +163,7 @@
                             <constraint firstItem="mmi-j5-aQp" firstAttribute="leading" secondItem="AG9-Bc-fX8" secondAttribute="leading" id="0ny-yT-aLn"/>
                             <constraint firstItem="AG9-Bc-fX8" firstAttribute="trailing" secondItem="mmi-j5-aQp" secondAttribute="trailing" id="2F2-Av-EfU"/>
                             <constraint firstItem="mmi-j5-aQp" firstAttribute="width" secondItem="b0J-Ib-Uvk" secondAttribute="width" id="5QO-ps-H8e"/>
-                            <constraint firstItem="d8P-L5-VKG" firstAttribute="trailing" secondItem="AG9-Bc-fX8" secondAttribute="trailing" constant="8" id="5rr-Qj-dpb"/>
+                            <constraint firstItem="d8P-L5-VKG" firstAttribute="trailing" secondItem="AG9-Bc-fX8" secondAttribute="trailing" constant="-8" id="5rr-Qj-dpb"/>
                             <constraint firstItem="AG9-Bc-fX8" firstAttribute="trailing" secondItem="Fe1-Er-YJM" secondAttribute="trailing" constant="20" id="6eO-SM-SQO"/>
                             <constraint firstItem="mmi-j5-aQp" firstAttribute="top" secondItem="AG9-Bc-fX8" secondAttribute="top" id="C7i-2Y-aW8"/>
                             <constraint firstItem="P5Y-OG-H4G" firstAttribute="top" secondItem="mmi-j5-aQp" secondAttribute="bottom" constant="20" id="Glu-xh-N1c"/>

@@ -17,6 +17,7 @@
 		13AAE3032171C7490072CE92 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3022171C7490072CE92 /* VideoCell.m */; };
 		13AAE3072171C7650072CE92 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3052171C7650072CE92 /* Video.m */; };
 		13AAE30A2171C7940072CE92 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3092171C7930072CE92 /* VideoController.m */; };
+		13AAE30D2171CB2B0072CE92 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AAE30C2171CB2B0072CE92 /* WebKit.framework */; };
 		B503208B30B49514980C074D /* libPods-VideoClips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		13AAE3062171C7650072CE92 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		13AAE3082171C7930072CE92 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
 		13AAE3092171C7930072CE92 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		13AAE30C2171CB2B0072CE92 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoClips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE4C9A421E4E4B96C914559 /* Pods-VideoClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClips.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClips/Pods-VideoClips.release.xcconfig"; sourceTree = "<group>"; };
 		CD5C524CF3079F6B0A8606E4 /* Pods-VideoClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClips/Pods-VideoClips.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AAE30D2171CB2B0072CE92 /* WebKit.framework in Frameworks */,
 				B503208B30B49514980C074D /* libPods-VideoClips.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 		CFB5CAE48724BFA8060B4329 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13AAE30C2171CB2B0072CE92 /* WebKit.framework */,
 				206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */,
 			);
 			name = Frameworks;
