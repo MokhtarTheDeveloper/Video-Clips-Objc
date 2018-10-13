@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		13AAE2E32171C6800072CE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE2E22171C6800072CE92 /* AppDelegate.m */; };
-		13AAE2E62171C6800072CE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE2E52171C6800072CE92 /* ViewController.m */; };
-		13AAE2E92171C6800072CE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AAE2E72171C6800072CE92 /* Main.storyboard */; };
 		13AAE2EB2171C6820072CE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AAE2EA2171C6820072CE92 /* Assets.xcassets */; };
 		13AAE2EE2171C6820072CE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AAE2EC2171C6820072CE92 /* LaunchScreen.storyboard */; };
 		13AAE2F12171C6820072CE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE2F02171C6820072CE92 /* main.m */; };
+		13AAE2F82171C6D10072CE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AAE2F72171C6D10072CE92 /* Main.storyboard */; };
+		13AAE2FB2171C6EF0072CE92 /* VideoClipsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE2FA2171C6EF0072CE92 /* VideoClipsController.m */; };
+		13AAE2FF2171C7150072CE92 /* HTTPServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE2FD2171C7150072CE92 /* HTTPServices.m */; };
+		13AAE3032171C7490072CE92 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3022171C7490072CE92 /* VideoCell.m */; };
+		13AAE3072171C7650072CE92 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3052171C7650072CE92 /* Video.m */; };
+		13AAE30A2171C7940072CE92 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE3092171C7930072CE92 /* VideoController.m */; };
+		B503208B30B49514980C074D /* libPods-VideoClips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13AAE2DE2171C6800072CE92 /* VideoClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AAE2E12171C6800072CE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13AAE2E22171C6800072CE92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13AAE2E42171C6800072CE92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13AAE2E52171C6800072CE92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		13AAE2E82171C6800072CE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13AAE2EA2171C6820072CE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AAE2ED2171C6820072CE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13AAE2EF2171C6820072CE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13AAE2F02171C6820072CE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13AAE2F72171C6D10072CE92 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		13AAE2F92171C6EF0072CE92 /* VideoClipsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoClipsController.h; sourceTree = "<group>"; };
+		13AAE2FA2171C6EF0072CE92 /* VideoClipsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoClipsController.m; sourceTree = "<group>"; };
+		13AAE2FD2171C7150072CE92 /* HTTPServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServices.m; sourceTree = "<group>"; };
+		13AAE2FE2171C7150072CE92 /* HTTPServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServices.h; sourceTree = "<group>"; };
+		13AAE3012171C7480072CE92 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		13AAE3022171C7490072CE92 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		13AAE3052171C7650072CE92 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		13AAE3062171C7650072CE92 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		13AAE3082171C7930072CE92 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		13AAE3092171C7930072CE92 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoClips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE4C9A421E4E4B96C914559 /* Pods-VideoClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClips.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClips/Pods-VideoClips.release.xcconfig"; sourceTree = "<group>"; };
+		CD5C524CF3079F6B0A8606E4 /* Pods-VideoClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClips/Pods-VideoClips.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B503208B30B49514980C074D /* libPods-VideoClips.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				13AAE2E02171C6800072CE92 /* VideoClips */,
 				13AAE2DF2171C6800072CE92 /* Products */,
+				5A3BF225C7C09B42D4747A45 /* Pods */,
+				CFB5CAE48724BFA8060B4329 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +77,74 @@
 		13AAE2E02171C6800072CE92 /* VideoClips */ = {
 			isa = PBXGroup;
 			children = (
+				13AAE30B2171C7A50072CE92 /* Controller */,
+				13AAE3042171C7570072CE92 /* Model */,
+				13AAE3002171C7320072CE92 /* Views */,
+				13AAE2FC2171C7010072CE92 /* Services */,
 				13AAE2E12171C6800072CE92 /* AppDelegate.h */,
 				13AAE2E22171C6800072CE92 /* AppDelegate.m */,
-				13AAE2E42171C6800072CE92 /* ViewController.h */,
-				13AAE2E52171C6800072CE92 /* ViewController.m */,
-				13AAE2E72171C6800072CE92 /* Main.storyboard */,
+				13AAE2F72171C6D10072CE92 /* Main.storyboard */,
 				13AAE2EA2171C6820072CE92 /* Assets.xcassets */,
 				13AAE2EC2171C6820072CE92 /* LaunchScreen.storyboard */,
 				13AAE2EF2171C6820072CE92 /* Info.plist */,
 				13AAE2F02171C6820072CE92 /* main.m */,
 			);
 			path = VideoClips;
+			sourceTree = "<group>";
+		};
+		13AAE2FC2171C7010072CE92 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13AAE2FE2171C7150072CE92 /* HTTPServices.h */,
+				13AAE2FD2171C7150072CE92 /* HTTPServices.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13AAE3002171C7320072CE92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13AAE3012171C7480072CE92 /* VideoCell.h */,
+				13AAE3022171C7490072CE92 /* VideoCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13AAE3042171C7570072CE92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AAE3062171C7650072CE92 /* Video.h */,
+				13AAE3052171C7650072CE92 /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AAE30B2171C7A50072CE92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AAE2F92171C6EF0072CE92 /* VideoClipsController.h */,
+				13AAE2FA2171C6EF0072CE92 /* VideoClipsController.m */,
+				13AAE3082171C7930072CE92 /* VideoController.h */,
+				13AAE3092171C7930072CE92 /* VideoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A3BF225C7C09B42D4747A45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C524CF3079F6B0A8606E4 /* Pods-VideoClips.debug.xcconfig */,
+				CAE4C9A421E4E4B96C914559 /* Pods-VideoClips.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFB5CAE48724BFA8060B4329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206F1C39E8005C0EF57B9CEB /* libPods-VideoClips.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13AAE2F42171C6820072CE92 /* Build configuration list for PBXNativeTarget "VideoClips" */;
 			buildPhases = (
+				41B42E16CC7F08CEF270E268 /* [CP] Check Pods Manifest.lock */,
 				13AAE2DA2171C6800072CE92 /* Sources */,
 				13AAE2DB2171C6800072CE92 /* Frameworks */,
 				13AAE2DC2171C6800072CE92 /* Resources */,
@@ -128,21 +205,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AAE2F82171C6D10072CE92 /* Main.storyboard in Resources */,
 				13AAE2EE2171C6820072CE92 /* LaunchScreen.storyboard in Resources */,
 				13AAE2EB2171C6820072CE92 /* Assets.xcassets in Resources */,
-				13AAE2E92171C6800072CE92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41B42E16CC7F08CEF270E268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoClips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13AAE2DA2171C6800072CE92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AAE2E62171C6800072CE92 /* ViewController.m in Sources */,
+				13AAE2FB2171C6EF0072CE92 /* VideoClipsController.m in Sources */,
+				13AAE3032171C7490072CE92 /* VideoCell.m in Sources */,
+				13AAE2FF2171C7150072CE92 /* HTTPServices.m in Sources */,
+				13AAE3072171C7650072CE92 /* Video.m in Sources */,
 				13AAE2F12171C6820072CE92 /* main.m in Sources */,
+				13AAE30A2171C7940072CE92 /* VideoController.m in Sources */,
 				13AAE2E32171C6800072CE92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13AAE2E72171C6800072CE92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13AAE2E82171C6800072CE92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		13AAE2EC2171C6820072CE92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +381,7 @@
 		};
 		13AAE2F52171C6820072CE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5C524CF3079F6B0A8606E4 /* Pods-VideoClips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +398,7 @@
 		};
 		13AAE2F62171C6820072CE92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE4C9A421E4E4B96C914559 /* Pods-VideoClips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
